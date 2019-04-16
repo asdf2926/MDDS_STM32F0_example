@@ -1,0 +1,25 @@
+# MDDS_STM32F0_example
+A example project of MDDS in STM32F0 series
+
+##运行效果
+上电后显示时钟，按S2进入应用选择菜单，S1选择，S2确认，S1长按取消
+包含3个应用：时钟调整、休眠、复位
+时钟调整：S1调整、S2移动到下一位、S1长按取消、S2长按确认
+##使用方法
+可以直接clone或下载zip包，唯一要注意的是放置在合适目录，以防止编译失败
+目录结构：
+根
+ |
+ +MDDS
+ | |······
+ |
+ +STM32
+ |  |
+ |  +目录名字
+ |  |   |
+ |  |   +README
+ |  |   +config
+ |  |   +Core
+ |  |   +Drivers
+ |  |   +MDK-ARM
+
